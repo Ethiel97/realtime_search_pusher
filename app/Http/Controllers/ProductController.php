@@ -18,9 +18,9 @@ class ProductController extends Controller
             ->get();
 
         //broadcast search results with Pusher channels
-        broadcast(new SearchEvent($products));
+        event(new SearchEvent($products));
 
-        return response()->json($products);
+        return response()->json("ok");
     }
 
     //fetch all products

@@ -1,6 +1,9 @@
 ## Realtime search engine with Pusher.
 
-A realtime search engine with Laravel using pusher for realtime stuff 
+A realtime search engine with Laravel using Pusher for realtime stuff 
+
+![application screenshot](public/images/realtime_search_pusher_demo.gif "Realtime search engine with Laravel and Pusher")
+
 
 ## Getting Started
 Make sure you have `npm` and `composer` on your local machine
@@ -15,8 +18,6 @@ Make sure you have `npm` and `composer` on your local machine
 8.  See the [tutorial](https://pusher.com/tutorials/laravel-vue-axios) for useful notes 
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
 
 * Laravel
 * Vue

@@ -31,6 +31,15 @@ class SearchEvent implements ShouldBroadcastNow
      *
      * @return \Illuminate\Broadcasting\Channel|array
      */
+
+    /**
+     * @return string
+     */
+    public function broadcastAs()
+    {
+        return 'searchResults';
+    }
+
     public function broadcastOn()
     {
         return new Channel('search');

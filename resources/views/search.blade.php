@@ -26,7 +26,7 @@
 <div id="app">
 
     <div class="container">
-        <h5 class="text-center">Realtime search engine with Laravel and Pusher</h5>
+        <h5 class="text-center" style="margin-top: 32px">Realtime search engine with Laravel and Pusher</h5>
         <br><br>
         <searchbar></searchbar>
         <products></products>
@@ -34,7 +34,6 @@
 
 </div>
 
-<script src="https://js.pusher.com/4.3/pusher.min.js"></script>
 <script async src="{{mix('js/app.js')}}"></script>
 
 </body>

@@ -5,7 +5,10 @@ let actions = {
         };
         axios.get(`/api/search`, {params})
             .then(res => {
-                commit('SET_PRODUCTS', res.data)
+                if (res.data === 'ok')
+                // commit('SET_PRODUCTS', res.data)
+                    console.log('request sent successfully')
+
             }).catch(err => {
             console.log(err)
         })
