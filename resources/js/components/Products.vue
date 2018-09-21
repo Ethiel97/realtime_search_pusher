@@ -29,7 +29,7 @@
         },
         computed: {
             groupedProducts() {
-                return _.chunk(this.products, 6);
+                return _.chunk(this.products, 4);
             },
             ...mapGetters([
                 'products'

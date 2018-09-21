@@ -19,5 +19,6 @@
 <style scoped>
     .card {
         cursor: pointer;
+        margin-bottom: 8px;
     }
 </style>
