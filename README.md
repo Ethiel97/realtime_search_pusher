@@ -1,8 +1,8 @@
-## Realtime search engine with Pusher.
+## Realtime search feature with Pusher.
 
 A realtime search engine with Laravel using Pusher for realtime stuff 
 
-![application screenshot](public/images/realtime_search_pusher_demo.gif "Realtime search engine with Laravel and Pusher")
+![application screenshot](public/images/demo.gif "Realtime search engine with Laravel and Pusher")
 
 
 ## Getting Started
@@ -15,7 +15,7 @@ Make sure you have `npm` and `composer` on your local machine
 5.  Set up your database in your `.env` file and run php `php artisan migrate --seed`
 6.  Execute `npm run dev` to build project assets
 7.  Execute `php artisan serve` to run the project in your browser
-8.  See the [tutorial](https://pusher.com/tutorials/laravel-vue-axios) for useful notes 
+8.  See the [tutorial](https://pusher.com/tutorials/search-laravel-vue) for useful notes 
 
 ### Prerequisites
 
@@ -32,6 +32,6 @@ Make sure you have `npm` and `composer` on your local machine
 * [Laravel](https://laravel.com/) - Beautiful Php framework
 * [Vue](https://vuejs.org/) - A Great reactive Js framework
 * [Vuex](https://vuejs.org/) - Vuejs state management made simple
-* [Bootstrap](https://getbootstrap.com) - A beautiful css framework
+* [Bootstrap](https://getbootstrap.com) - A beautiful Css framework
 * [Axios](https://vuejs.org/) - A Js library to handle ajax requests easily
 
