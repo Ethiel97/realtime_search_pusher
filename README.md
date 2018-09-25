@@ -1,8 +1,8 @@
 ## Realtime search feature with Pusher.
 
-A realtime search engine with Laravel using Pusher for realtime stuff 
+A realtime search feature with Laravel using Pusher for realtime stuff 
 
-![application screenshot](public/images/demo.gif "Realtime search engine with Laravel and Pusher")
+![application screenshot](public/images/demo.gif "Realtime search feature with Laravel and Pusher")
 
 
 ## Getting Started

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
 
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
-    <title>Realtime search engine with Pusher and Laravel</title>
+    <title>Realtime search feature with Pusher and Laravel</title>
 </head>
 <body>
 
@@ -26,7 +26,7 @@
 <div id="app">
 
     <div class="container">
-        <h5 class="text-center" style="margin-top: 32px">Realtime search engine with Laravel and Pusher</h5>
+        <h5 class="text-center" style="margin-top: 32px">Realtime search feature with Laravel and Pusher</h5>
         <br><br>
         <searchbar></searchbar>
         <products></products>
