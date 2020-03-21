@@ -17,10 +17,13 @@ class ProductController extends Controller
             ->orWhere('description', 'like', '%' . $query . '%')
             ->get();
 
-        //broadcast search results with Pusher channels
-        event(new SearchEvent($products));
-
-        return response()->json("ok");
+        if ($products->count() > 0) {
+            //broadcast search results with Pusher channels
+            event(new SearchEvent($products));
+            return response()->json($products);
+        } else {
+            return response()->json(null);
+        }
     }
 
     //fetch all products
